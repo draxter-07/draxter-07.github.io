@@ -10,10 +10,6 @@
     0% {background-position: 100% 0%}
     100% {background-position: 100% 100%}
 }
-@keyframes changeOpacity {
-    0% {opacity: 0}
-    100% {opacity: 1}
-}
 
 body{
     box-sizing: border-box;
@@ -23,25 +19,22 @@ body{
     padding: var(--defaultPadding);
 
     background: linear-gradient(var(--primaryColor), var(--secundaryColor));
-    background-size: 200vw 200vh;
+    background-size: 100vw 400vh;
 
-    animation-name: changeBack;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease;
+    animation: changeBack 10s ease infinite alternate;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    animation-name: changeOpacity;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-timing-function: linear;
 }
 body > *{
     font-family: "Roboto", "sans-serif";
 }
 
+.totalContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
