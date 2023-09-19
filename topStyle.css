@@ -17,15 +17,3 @@
     font-size: var(--bigFontSize);
     color: rgb(255, 255, 255);
 }
-
-@media (max-width: 1000px){
-    .top{
-        flex-direction: column;
-        align-items: center;
-        padding: none;
-        margin: none;
-    }
-    .pageTitle{
-        font-size: 30px;
-    }
-}

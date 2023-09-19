@@ -1,0 +1,14 @@
+@media (max-width: 1100px){
+    .rightContent{
+        width: 100%;
+    }
+
+    .imagesBox{
+        flex-direction: column;
+    }
+
+    .imageBox{
+        width: 100%;
+        font-size: 25px;
+    }
+}

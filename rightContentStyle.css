@@ -54,18 +54,3 @@
     border-radius: 10px;
     margin: 0px 0px 5px 0px;
 }
-
-@media (max-width: 1000px){
-    .rightContent{
-        width: 100%;
-    }
-
-    .imagesBox{
-        flex-direction: column;
-    }
-
-    .imageBox{
-        width: 100%;
-        font-size: 25px;
-    }
-}

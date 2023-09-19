@@ -1,0 +1,9 @@
+@media (max-width: 1100px){
+    body{
+        padding: none;
+        background-size: 100vw 3000vh;
+    }
+    .totalContent{
+        flex-direction: column;
+    }
+}

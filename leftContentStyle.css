@@ -73,26 +73,3 @@
     font-size: 15px;
 }
 
-@media (max-width: 1000px){
-    .leftContent{
-        width: 100%;
-        margin: 0px 0px 20px 0px;
-    }
-
-    .resumeImage{
-        width: 100%;
-    }
-
-    .resumeBasicInfo{
-        font-size: 25px;
-    }
-
-    .resumeBasicInfoIcon{
-        font-size: 30px;
-    }
-
-    .resumeText{
-        font-size: 25px;
-    }
-}
-
