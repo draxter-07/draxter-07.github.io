@@ -13,7 +13,18 @@
     }
 
     .resumeBasicInfoIcon{
-        font-size: 30px;
+        font-size: 35px;
+    }
+
+    .resumeTextTitle{
+        font-size: 40px;
+    }
+
+    .resumeTextTitleButton{
+        font-size: 45px;
+
+        display: flex;
+        align-items: flex-end;
     }
 
     .resumeText{

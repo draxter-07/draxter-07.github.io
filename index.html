@@ -8,22 +8,27 @@
         <title>Napoleão Bonaparte</title>
         <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/9346/9346673.png">
 
-        <link rel="stylesheet" href="./resetCss.css">
-        <link rel="stylesheet" href="./generalStyle.css">
-        <link rel="stylesheet" href="./topStyle.css">
-        <link rel="stylesheet" href="./leftContentStyle.css">
-        <link rel="stylesheet" href="./rightContentStyle.css">
-        <link rel="stylesheet" href="./linksStyle.css">
+        <link rel="stylesheet" href="./generalStyle/resetCss.css">
+        <link rel="stylesheet" href="./generalStyle/generalStyle.css">
+        <link rel="stylesheet" href="./topStyle/topStyle.css">
+        <link rel="stylesheet" href="./leftContent/leftContentStyle.css">
+        <link rel="stylesheet" href="./rightContent/rightContentStyle.css">
+        <link rel="stylesheet" href="./linksStyle/linksStyle.css">
 
-        <link rel="stylesheet" href="./generalResponseStyle.css">
-        <link rel="stylesheet" href="./topResponseStyle.css">
-        <link rel="stylesheet" href="./leftContentResponseStyle.css">
-        <link rel="stylesheet" href="./rightContentResponseStyle.css">
-        <link rel="stylesheet" href="./linksResponseStyle.css">
+        <link rel="stylesheet" href="./generalStyle/generalResponseStyle.css">
+        <link rel="stylesheet" href="./topStyle/topResponseStyle.css">
+        <link rel="stylesheet" href="./leftContent/leftContentResponseStyle.css">
+        <link rel="stylesheet" href="./rightContent/rightContentResponseStyle.css">
+        <link rel="stylesheet" href="./linksStyle/linksResponseStyle.css">
+
+        <script src="./leftContent/leftContentScript.js"></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+        <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
     </head>
 
     <body>
@@ -55,28 +60,31 @@
                 <div class="resumeContent">
                     <div class="resumeTextTitle">
                         <span>A brief text</span>
+                        <button class="resumeTextTitleButton" onclick="showContent()"><ion-icon name="arrow-down"></ion-icon></button>
                     </div>
-                    <img class="resumeImage" src="https://www.politize.com.br/wp-content/uploads/2022/03/napoleao-retrato.jpg.webp">
-                    <div class="resumeBasics">
-                        <div class="resumeBasicInfo">
-                            <div class="resumeBasicInfoIcon">
-                                <ion-icon name="star-outline"></ion-icon>
+                    <div class="resumeContentContent">
+                        <img class="resumeImage" src="https://www.politize.com.br/wp-content/uploads/2022/03/napoleao-retrato.jpg.webp">
+                        <div class="resumeBasics">
+                            <div class="resumeBasicInfo">
+                                <div class="resumeBasicInfoIcon">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                </div>
+                                <span>Ajaccio - Córsega</span>
                             </div>
-                            <span>Ajaccio - Córsega</span>
                         </div>
-                    </div>
-                    <div class="resumeBasics">
-                        <div class="resumeBasicInfo">
-                            <div class="resumeBasicInfoIcon">
-                                <ion-icon name="star"></ion-icon>
+                        <div class="resumeBasics">
+                            <div class="resumeBasicInfo">
+                                <div class="resumeBasicInfoIcon">
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+                                <span>Longwood - Inglaterra</span>
                             </div>
-                            <span>Longwood - Inglaterra</span>
                         </div>
-                    </div>
-                    <div class="resumeText">
-                        <span>Napoleão (Ajaccio, 15 de agosto de 1769 – Longwood, 5 de maio de 1821) foi um estadista e líder militar francês que ganhou destaque durante a Revolução Francesa e liderou várias campanhas militares de sucesso durante as Guerras Revolucionárias Francesas.</span>
-                        <span>Foi imperador dos franceses como Napoleão I de 1804 a 1814 e brevemente em 1815 durante os Cem Dias.</span>
-                        <span>Napoleão dominou os assuntos europeus e globais por mais de uma década, enquanto liderava a França contra uma série de coalizões nas guerras napoleônicas. Ele venceu a maioria desses conflitos e a grande maioria de suas batalhas, construindo um grande império que governava grande parte da Europa continental antes de seu colapso final em 1815.</span>
+                        <div class="resumeText">
+                            <span>Napoleão (Ajaccio, 15 de agosto de 1769 – Longwood, 5 de maio de 1821) foi um estadista e líder militar francês que ganhou destaque durante a Revolução Francesa e liderou várias campanhas militares de sucesso durante as Guerras Revolucionárias Francesas.</span>
+                            <span>Foi imperador dos franceses como Napoleão I de 1804 a 1814 e brevemente em 1815 durante os Cem Dias.</span>
+                            <span>Napoleão dominou os assuntos europeus e globais por mais de uma década, enquanto liderava a França contra uma série de coalizões nas guerras napoleônicas. Ele venceu a maioria desses conflitos e a grande maioria de suas batalhas, construindo um grande império que governava grande parte da Europa continental antes de seu colapso final em 1815.</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -111,8 +119,7 @@
         <div class="bottom">
             <img src="https://chart.googleapis.com/chart?cht=qr&chl=http%3A%2F%2Fdraxter-07.github.io&chs=100x100&choe=UTF-8&chld=L|2">
         </div>
-
-        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        
     </body>
 </html>
 

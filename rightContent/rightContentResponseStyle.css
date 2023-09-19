@@ -7,6 +7,10 @@
         flex-direction: column;
     }
 
+    .imagesTextTitle{
+        font-size: 40px;
+    }
+
     .imageBox{
         width: 100%;
         font-size: 25px;
