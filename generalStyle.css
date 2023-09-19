@@ -39,7 +39,7 @@ body > *{
     align-items: flex-start;
 }
 
-@media (max-width: 750px){
+@media (max-width: 1000px){
     body{
         padding: none;
     }
