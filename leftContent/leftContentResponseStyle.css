@@ -17,11 +17,11 @@
     }
 
     .resumeTextTitle{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .resumeTextTitleButton{
-        font-size: 45px;
+        font-size: 35px;
 
         display: flex;
         align-items: flex-end;
