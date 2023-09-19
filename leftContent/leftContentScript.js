@@ -4,7 +4,7 @@ function showContent(){
     let resumeContentDiv = resumeTextDiv.parentElement
     let resumeContentContent = resumeContentDiv.children[1]
     let resumeContentContentHeight = resumeContentContent.style.maxHeight
-    let finalMaxHeight = "9999999px";
+    let finalMaxHeight = "999px";
 
     icon.style.transition = "transform 1s";
     resumeContentContent.style.transition = "max-height 2s ease";
