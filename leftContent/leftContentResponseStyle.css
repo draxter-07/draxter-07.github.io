@@ -9,11 +9,11 @@
     }
 
     .resumeBasicInfo{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .resumeBasicInfoIcon{
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .resumeTextTitle{
@@ -28,6 +28,6 @@
     }
 
     .resumeText{
-        font-size: 25px;
+        font-size: 20px;
     }
 }
