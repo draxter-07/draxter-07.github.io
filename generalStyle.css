@@ -38,3 +38,12 @@ body > *{
     justify-content: center;
     align-items: flex-start;
 }
+
+@media (max-width: 750px){
+    body{
+        padding: none;
+    }
+    .totalContent{
+        flex-direction: column;
+    }
+}

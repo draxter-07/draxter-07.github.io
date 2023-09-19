@@ -1,4 +1,6 @@
 .links{
+    box-sizing: border-box;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -25,4 +27,12 @@
 }
 .link:hover{
     font-size: 40px;
+}
+
+@media (max-width: 750px){
+    .links{
+        width: 50%;
+
+        margin: 10px 0px 0px 0px;
+    }
 }

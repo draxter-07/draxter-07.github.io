@@ -19,7 +19,7 @@
 
 .imagesTextTitle{
     font-size: 35px;
-    font-weight: bold;
+    font-weight: 550;
     margin: 0px 0px 20px 0px;
 }
 
@@ -45,8 +45,7 @@
     justify-content: space-between;
     align-items: flex-start;
 
-    font-size: var(--normalFontSize);
-    font-weight: bold;
+    font-size: 15px;
 }
 
 .imageBoxImage{
@@ -54,4 +53,19 @@
     height: 100%;
     border-radius: 10px;
     margin: 0px 0px 5px 0px;
+}
+
+@media (max-width: 750px){
+    .rightContent{
+        width: 100%;
+    }
+
+    .imagesBox{
+        flex-direction: column;
+    }
+
+    .imageBox{
+        width: 100%;
+        font-size: 25px;
+    }
 }
