@@ -30,7 +30,7 @@
 .resumeImage{
     width: 100%;
     height: auto;
-    margin: 0px 0px 5px 0px;
+    margin: 0px 0px 10px 0px;
     border-radius: 10px;
 }
 
@@ -49,7 +49,7 @@
 
     height: fit-content;
     width: 100%;
-    margin: 0px 0px 5px 0px;
+    margin: 0px 0px 10px 0px;
 
     display: flex;
     flex-direction: row;
@@ -96,5 +96,41 @@
     display: flex;
     flex-direction: column;
     font-size: 15px;
+}
+
+.resumeBasicSkill{
+    box-sizing: border-box;
+
+    height: fit-content;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-size: 15px;
+}
+.loadingBar{
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 8px;
+    border-radius: 4px;
+
+    overflow: hidden;
+}
+.loadingBackground{
+    width: 100%;
+    height: 100%;
+
+    background: rgb(0, 0, 0, 0.2);
+}
+.load{
+    max-width: 0px;
+    height: 100%;
+    border-radius: 4px;
+    background: rgb(0, 200, 150);
 }
 
