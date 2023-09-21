@@ -12,18 +12,16 @@
     margin: 0px 0px 20px 0px;
 }
 
-.imagesContent{
+.projectsContent{
     display: flex;
     flex-direction: column;
 }
-
-.imagesTextTitle{
+.projectsTextTitle{
     font-size: 35px;
     font-weight: 550;
     margin: 0px 0px 20px 0px;
 }
-
-.imagesBox{
+.projectsBox{
     width: 100%;
     height: fit-content;
 
@@ -34,23 +32,23 @@
 
     flex-wrap: wrap;
 }
+.projectBox{
+    box-sizing: border-box;
 
-.imageBox{
-    width: 30%;
-    height: fit-content;
-    margin: 0px 0px 20px 0px;
+    width: 48%;
+    aspect-ratio: 5 / 3;
+
+    border-radius: 5px;
+    margin: 0px 0px 10px 0px;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 
-    font-size: 15px;
+    font-size: 25px;
+    font-weight: 600;
 }
-
-.imageBoxImage{
-    width: 100%;
-    aspect-ratio: 100%;
-    border-radius: 10px;
-    margin: 0px 0px 5px 0px;
+.projectBox:hover{
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
 }

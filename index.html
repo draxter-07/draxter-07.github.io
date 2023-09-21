@@ -24,6 +24,7 @@
         <link rel="stylesheet" href="./linksStyle/linksResponseStyle.css">
 
         <script src="./leftContent/leftContentScript.js"></script>
+        <script src="./rightContent/rightContentScript.js"></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,10 +65,10 @@
             <div class="leftContent">
                 <div class="resumeContent">
                     <div class="resumeTextTitle">
-                        <span>A brief text</span>
+                        <span>Bio</span>
                         <button class="resumeTextTitleButton" onclick="showContent()"><ion-icon name="arrow-down"></ion-icon></button>
                     </div>
-                    <div class="resumeContentContent">
+                    <div class="resumeContentHidden">
                         <img class="resumeImage" src="https://www.bomjesus.br/galeria/getImage/477/1468195724281582.jpg">
                         <div class="resumeBasics">
                             <div class="resumeBasicInfo">
@@ -89,7 +90,7 @@
                                 </div>
                                 <div class="loadingBar">
                                     <div class="loadingBackground">
-                                        <div id="pythonLoad" class="load" style="width: 40%;"></div>
+                                        <div id="pythonLoad" class="load" style="width: 50%;"></div>
                                     </div>
                                 </div>
                             </div>
@@ -111,7 +112,7 @@
                                 </div>
                                 <div class="loadingBar">
                                     <div class="loadingBackground">
-                                        <div id="reactLoad" class="load" style="width: 70%;"></div>
+                                        <div id="reactLoad" class="load" style="width: 60%;"></div>
                                     </div>
                                 </div>
                             </div>
@@ -124,26 +125,21 @@
             </div>
 
             <div class="rightContent">
-                <div class="imagesContent">
-                    <div class="imagesTextTitle">
-                        <span>Some great stuff</span>
+                <div class="projectsContent">
+                    <div class="projectsTextTitle">
+                        <span>Projetos em desenvolvimento</span>
                     </div>
-                    <div class="imagesBox">
-                        <div class="imageBox">
-                            <img class="imageBoxImage" src="https://www.infoescola.com/wp-content/uploads/2012/07/napoleao-bonaparte.jpg">
-                            <span class="imageBoxSpan">Nice stuff about him like he can horse a little in Alps</span>
+                    <div class="projectsBox">
+                        <embed class="projectBox" type="text/html" src="https://draxter-07.github.io/moneyCare/">
+                        <div class="projectBox" style="background: rgb(255, 150, 100); color: rgb(0, 0, 0);">
+                            jumpThing
                         </div>
-                        <div class="imageBox">
-                            <img class="imageBoxImage" src="https://www.infoescola.com/wp-content/uploads/2012/07/napoleao-bonaparte.jpg">
-                            <span class="imageBoxSpan">Nice stuff about him like he can horse a little in Alps</span>
+                        <div class="projectBox" style="background: rgb(150, 50, 255); color: rgb(255, 255, 255);">
+                            cells
                         </div>
-                        <div class="imageBox">
-                            <img class="imageBoxImage" src="https://www.infoescola.com/wp-content/uploads/2012/07/napoleao-bonaparte.jpg">
-                            <span class="imageBoxSpan">Nice stuff about him like he can horse a little in Alps</span>
-                        </div>
-                        <div class="imageBox">
-                            <img class="imageBoxImage" src="https://www.infoescola.com/wp-content/uploads/2012/07/napoleao-bonaparte.jpg">
-                            <span class="imageBoxSpan">Nice stuff about him like he can horse a little in Alps</span>
+                        <embed class="projectBox" type="text/html" src="C:/Users/philippe/Desktop/myselfGit/index.html">
+                        <div class="projectBox" style="background: rgb(150, 50, 255); color: rgb(255, 255, 255);">
+                            PH
                         </div>
                     </div>
                 </div>
