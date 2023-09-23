@@ -13,8 +13,10 @@
 }
 
 .projectsContent{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .projectsTextTitle{
     font-size: 35px;
@@ -22,6 +24,8 @@
     margin: 0px 0px 20px 0px;
 }
 .projectsBox{
+    box-sizing: border-box;
+
     width: 100%;
     height: fit-content;
 
@@ -34,6 +38,7 @@
 }
 .projectBox{
     box-sizing: border-box;
+    position: relative;
 
     width: 48%;
     aspect-ratio: 5 / 3;
@@ -42,13 +47,44 @@
     margin: 0px 0px 10px 0px;
 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
 
     font-size: 25px;
     font-weight: 600;
+
+    overflow: hidden;
 }
-.projectBox:hover{
-    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+.projectBoxText{
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+
+    transition: transform 1s ease;
+}
+.projectBoxText:hover{
+    transform: translate(-50%);
+}
+.projectBoxTextPart{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectBoxLink{
+    position: absolute;
+    top: 2%;
+    left: 88%;
+    font-size: 100px;
 }

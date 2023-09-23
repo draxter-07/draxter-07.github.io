@@ -9,7 +9,7 @@
     height: fit-content;
     width: 30%;
 }
-.link, a{
+.link{
     box-sizing: border-box;
 
     display: flex;
@@ -25,6 +25,6 @@
 
     transition: font-size 0.1s linear;
 }
-a:hover{
+.link:hover{
     font-size: 40px;
 }

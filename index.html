@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Philippe Idalgo Prestes</title>
-        <link rel="icon" type="image/x-icon" href="https://www.bomjesus.br/galeria/getImage/477/1468195724281582.jpg">
+        <link rel="icon" type="image/x-icon" href="./assets/PH.png">
 
         <link rel="stylesheet" href="./generalStyle/resetCss.css">
 
@@ -40,24 +40,12 @@
                 Philippe Idalgo Prestes
             </div>
             <div class="links">
-                <div class="link">
-                    <a href="https://www.instagram.com/philippeprestes/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-                </div>
-                <div class="link">
-                    <a href="https://github.com/draxter-07" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-                </div>
-                <div class="link">
-                    <a href="https://www.linkedin.com/in/philippe-idalgo-prestes-9a304b23b/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
-                </div>
-                <div class="link">
-                    <a href="https://musescore.com/draxter_07" target="_blank"><ion-icon name="musical-notes"></ion-icon></a>
-                </div>
-                <div class="link">
-                    <a href="https://wa.me/5541991718360" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
-                </div>
-                <div class="link">
-                    <a href="mailto:philippe.idalgoprestes@gmail.com " target="_blank"><ion-icon name="mail"></ion-icon></a>
-                </div>
+                <a class="link" href="https://www.instagram.com/philippeprestes/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a class="link" href="https://github.com/draxter-07" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                <a class="link" href="https://www.linkedin.com/in/philippe-idalgo-prestes-9a304b23b/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a class="link" href="https://musescore.com/draxter_07" target="_blank"><ion-icon name="musical-notes"></ion-icon></a>
+                <a class="link" href="https://wa.me/5541991718360" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                <a class="link" href="mailto:philippe.idalgoprestes@gmail.com " target="_blank"><ion-icon name="mail"></ion-icon></a>
             </div>
         </div>
 
@@ -69,25 +57,15 @@
                         <button class="resumeTextTitleButton" onclick="showContent()"><ion-icon name="arrow-down"></ion-icon></button>
                     </div>
                     <div class="resumeContentHidden">
-                        <img class="resumeImage" src="https://www.bomjesus.br/galeria/getImage/477/1468195724281582.jpg">
+                        <img class="resumeImage" src="./assets/philippe.jpeg">
                         <div class="resumeBasics">
                             <div class="resumeBasicInfo">
-                                <div class="resumeBasicInfoIcon">
-                                    <ion-icon style="color: var(--primaryColor)" name="star-outline"></ion-icon>
-                                </div>
-                                <span>Porto Alegre - Brasil</span>
-                            </div>
-                            <div class="resumeBasicInfo">
-                                <div class="resumeBasicInfoIcon">
-                                    <ion-icon style="color: var(--secundaryColor)" name="calendar"></ion-icon>
-                                </div>
-                                <span>2 de Agosto de 2002</span>
+                                <img class="resumeBasicInfoIcon" src="./assets/star.png">
+                                <span>Porto Alegre - 02/08/2002</span>
                             </div>
 
                             <div class="resumeBasicSkill">
-                                <div class="resumeBasicInfoIcon">
-                                    <ion-icon style="color: rgb(48, 105, 152)" name="logo-python"></ion-icon>
-                                </div>
+                                <img class="resumeBasicInfoIcon" src="./assets/python.png">
                                 <div class="loadingBar">
                                     <div class="loadingBackground">
                                         <div id="pythonLoad" class="load" style="width: 50%;"></div>
@@ -96,9 +74,7 @@
                             </div>
 
                             <div class="resumeBasicSkill">
-                                <div class="resumeBasicInfoIcon">
-                                    <ion-icon style="color: rgb(240, 101, 41)" name="logo-html5"></ion-icon>
-                                </div>
+                                <img class="resumeBasicInfoIcon" src="./assets/html.png">
                                 <div class="loadingBar">
                                     <div class="loadingBackground">
                                         <div id="htmlLoad" class="load" style="width: 60%;"></div>
@@ -107,9 +83,7 @@
                             </div>
 
                             <div class="resumeBasicSkill">
-                                <div class="resumeBasicInfoIcon">
-                                    <ion-icon style="color: rgb(240, 219, 79)" name="logo-react"></ion-icon>
-                                </div>
+                                <img class="resumeBasicInfoIcon" src="./assets/react.png">
                                 <div class="loadingBar">
                                     <div class="loadingBackground">
                                         <div id="reactLoad" class="load" style="width: 60%;"></div>
@@ -118,7 +92,8 @@
                             </div>
                         </div>
                         <div class="resumeText">
-                            <span>yet to be written</span>
+                            <span>Além de Python e C/C++, possuo experiência na criação front-end e back-end de sites, utilizando HTML e CSS puros, JavaScript, Express, React, SQL e MongoDB. Meus repositórios do GitHub versam principalmente sobre eles.</span>
+                            <span>Além disso, sou fluente em inglês, ao mesmo tempo que sou nível básico em espanhol, alemão, francês, italiano, grego e latim.</span>
                         </div>
                     </div>
                 </div>
@@ -130,15 +105,23 @@
                         <span>Projetos em desenvolvimento</span>
                     </div>
                     <div class="projectsBox">
-                        <embed class="projectBox" type="text/html" src="https://draxter-07.github.io/moneyCare/">
-                        <div class="projectBox" style="background: rgb(255, 150, 100); color: rgb(0, 0, 0);">
-                            jumpThing
+                        <div class="projectBox" style="background: rgb(0, 200, 150); color: rgb(50, 80, 200);">
+                            <div class="projectBoxText">
+                                <div class="projectBoxTextPart">moneyCare</div>
+                                <div class="projectBoxTextPart">é uma interface para gerenciamento financeiro pessoal e profissional</div>
+                            </div>
                         </div>
-                        <div class="projectBox" style="background: rgb(150, 50, 255); color: rgb(255, 255, 255);">
-                            cells
+                        <div class="projectBox" style="background: rgb(145, 75, 255); color: rgb(255, 255, 255);">
+                            <div class="projectBoxText">
+                                <div class="projectBoxTextPart">PH</div>
+                                <div class="projectBoxTextPart">é o site primário do grupo PH</div>
+                            </div>
                         </div>
-                        <div class="projectBox" style="background: rgb(150, 50, 255); color: rgb(255, 255, 255);">
-                            PH
+                        <div class="projectBox" style="background: rgb(250, 150, 50); color: rgb(0, 0, 0);">
+                            <div class="projectBoxText">
+                                <div class="projectBoxTextPart">jumpThing</div>
+                                <div class="projectBoxTextPart">é um jogo multiplataforma inspirado nos clássicos dos anos 80</div>
+                            </div>
                         </div>
                     </div>
                 </div>
