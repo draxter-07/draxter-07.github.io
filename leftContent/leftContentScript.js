@@ -1,4 +1,4 @@
-function showContent(){
+function showResumeContent(){
     let icon = event.target;
     let resumeTextDiv = event.target.parentElement.parentElement
     let resumeContentDiv = resumeTextDiv.parentElement
