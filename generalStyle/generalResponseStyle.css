@@ -1,5 +1,7 @@
 @media (max-width: 1080px){
     body{
+        width: 100%;
+        height: 100%;
         padding: none;
         background-size: 100vw 3000vh;
     }
