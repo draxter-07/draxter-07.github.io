@@ -39,3 +39,10 @@ body > *{
     align-items: flex-start;
     width: 100%;
 }
+
+.bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,30 +1,21 @@
 function showProjectContent(){
     let icon = event.target;
-    let resumeTextDiv = event.target.parentElement.parentElement
-    let resumeContentDiv = resumeTextDiv.parentElement
-    let resumeContentContent = resumeContentDiv.children[1]
-    let resumeContentContentHeight = resumeContentContent.style.maxHeight
+    let projectTextDiv = event.target.parentElement.parentElement
+    let anteriorProjectDiv = projectTextDiv.parentElement
+    let projectContentDiv = anteriorProjectDiv.children[1]
+    let projectContentDivHeight = projectContentDiv.style.maxHeight
 
     let finalMaxHeight = "999px";
     let initialMaxHeight = "0px";
-    let finalMaxWidth = "299px";
 
     icon.style.transition = "transform 1s";
-    resumeContentContent.style.transition = "max-height 1.5s ease";
-    if (resumeContentContentHeight == finalMaxHeight){
+    projectContentDiv.style.transition = "max-height 1.5s ease";
+    if (projectContentDivHeight == finalMaxHeight){
         icon.style.transform = "rotate(0deg)";
-        resumeContentContent.style.maxHeight = initialMaxHeight;
-        for (let i = 0; i < ids.length; i++){
-            let element = document.getElementById(ids[i]);
-            element.style.maxWidth = "0px";
-        }
+        projectContentDiv.style.maxHeight = initialMaxHeight;
     }
     else{
         icon.style.transform = "rotate(180deg)";
-        resumeContentContent.style.maxHeight = finalMaxHeight;
-        for (let i = 0; i < ids.length; i++){
-            let element = document.getElementById(ids[i]);
-            element.style.maxWidth = finalMaxWidth;
-        }
+        projectContentDiv.style.maxHeight = finalMaxHeight;
     }
 }
