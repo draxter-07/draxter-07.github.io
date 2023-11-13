@@ -5,9 +5,9 @@ function showResumeContent(){
     let resumeContentContent = resumeContentDiv.children[1]
     let resumeContentContentHeight = resumeContentContent.style.maxHeight
 
-    let ids = ["pythonLoad", "htmlLoad", "reactLoad"];
+    let ids = ["pythonLoad", "cLoad", "htmlLoad", "cssLoad", "jsLoad", "reactLoad"];
 
-    let finalMaxHeight = "999px";
+    let finalMaxHeight = "1999px";
     let initialMaxHeight = "0px";
     let finalMaxWidth = "299px";
 
